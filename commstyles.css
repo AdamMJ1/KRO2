@@ -1,0 +1,115 @@
+
+
+ul {
+    font-family: sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+#cabecera{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 8px;
+    text-decoration: none;
+    color:white ;
+}
+
+li a:hover {
+    color: #ff34bb;
+}
+a{
+    display: contents;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+body{
+    
+    position: relative;
+    background: #060505;
+    background-color: #f5f5f5;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#cabecera img{
+    border: none;
+    width: 35px;
+    float: right;
+}
+
+#latizq{
+    font-family: serif;
+    float: left;
+    background-color: #f5f5f5;
+    width: 10%;
+    height: 70%;
+    margin-left: 2em;
+    
+}
+#main{
+    margin-left: 5%;
+    font-family: monospace;
+    float: left;
+    background-color:#f5f5f5;
+    width: 75%;
+    height: 90%;
+    margin-right: 2em;
+}
+#cajaizq{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#cajamain{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border-style: solid thin grey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#latizq p{
+    font-family: sans-serif;
+}
+#latizq ul {
+    background-color: white;
+    
+    list-style-type: none;
+    height: 30px;;
+    
+}
+
+#latizq li a {
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+#comando{
+    border-bottom: 2px solid lightgrey;
+    color: #ff34bb;
+    font-size: 16px;
+}
+
+#latizq li a:hover {
+  background-color: #555;
+  color: white;
+}

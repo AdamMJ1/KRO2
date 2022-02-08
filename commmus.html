@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>KroBot</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="commstyles.css">
+        <link rel="icon" href="logo.png">
+    </head>
+    <body>
+         <ul id="cabecera">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Commands</a></li>
+            <li><a href="krovi.html">Meet Krovi</a></li>
+            <span id="logo">
+                <a href="#"><img src="logo.png"></a>
+            </span>
+        </ul>
+        
+             <div id="latizq">
+                 <div id="cajaizq">
+                     <p>COMANDOS</p>
+                        <ul><li><a href="commands.html">General</a></li></ul>
+                        <ul><li><a href="commmus.html">Musica</a></li></ul>
+                        <ul> <li><a href="commdj.html">Rol DJ</a></li></ul>
+                        <ul><li><a href="commadm.html">Admin</a></li></ul>
+                        <ul><li><a href="commprop.html">Propietario</a></li></ul>
+                 
+                 </div>
+        
+        
+        
+        </div>
+        <div id="main">
+            <div id="cajamain">
+                <p id="comando">!lyrics</p>
+                <p>Fetches the lyrics for the provided song name, or the currently-playing song if no name is provided</p>
+            </div>
+            
+            <div id="cajamain">
+                <p id="comando">!nowplaying</p>
+                <p>Shows information about the song that is currently playing (name, user that added it, current timestamp, and song URL)</p>
+            </div>
+            
+            <div id="cajamain">
+                <p id="comando">!play</p>
+                <p>Shows the play commands. If the player is paused, it resumes the player.</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!playlists</p>
+                <p>Shows available playlists. These playlists must be inside the Playlists folder.</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!queue</p>
+                <p>Shows songs in the queue. If no page number is provided, it defaults to the first page.</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!remove</p>
+                <p>Removes the song at the provided position in the queue. You can only remove songs that you added, unless you are an Admin or have the specified DJ role.</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!scsearch</p>
+                <p>Shows the top SoundCloud results for a search and allows you to select one to add to the queue</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!shuffle</p>
+                <p>Shuffles (changes the order, randomly) of songs that you have added to the queue</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!skip</p>
+                <p>Skips a song if you added it. If you didn't add it, it adds your vote to skip it. Approximately 60% of active listeners need to vote to skip a song for it to be skipped.</p>
+            </div>   
+        </div>
+    </body>
+</html>

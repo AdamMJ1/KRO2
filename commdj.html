@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>KroBot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="commstyles.css">
+        <link rel="icon" href="logo.png">
+    </head>
+    <body>
+         <ul id="cabecera">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Commands</a></li>
+            <li><a href="krovi.html">Meet Krovi</a></li>
+            <span id="logo">
+                <a href="#"><img src="logo.png"></a>
+            </span>
+        </ul>
+        
+             <div id="latizq">
+                 <div id="cajaizq">
+                     <p>COMANDOS</p>
+                        <ul><li><a href="commands.html">General</a></li></ul>
+                        <ul><li><a href="commmus.html">Musica</a></li></ul>
+                        <ul> <li><a href="commdj.html">Rol DJ</a></li></ul>
+                        <ul><li><a href="commadm.html">Admin</a></li></ul>
+                        <ul><li><a href="commprop.html">Propietario</a></li></ul>
+                 </div>
+        </div>
+        <div id="main">
+            <div id="cajamain">
+                <p id="comando">!forceremove</p>
+                <p>Forcibly removes all songs that were added by the specified user</p>
+            </div>
+            
+            <div id="cajamain">
+                <p id="comando">!forceskip</p>
+                <p>Forcibly skips the current song, regardless of who added it and how many votes there are to skip it</p>
+            </div>
+            
+            <div id="cajamain">
+                <p id="comando">!movetrack</p>
+                <p> Moves the track at position in the queue to position</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!pause</p>
+                <p>Pauses the player. The player remains paused until a DJ or Admin uses the play command</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!playnext</p>
+                <p>Places a single song at the front of the queue to play next (or begins playing if nothing is currently playing)</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!repeat</p>
+                <p>Puts the player in (or takes it out of) repeat mode. In repeat mode, when songs end naturally (not removed or skipped), they get put back into the queue. </p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!skipto</p>
+                <p>Skips forward in the queue to the provided song number, playing that song and removing any songs before that from the queue</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!stop</p>
+                <p>Clears the queue, ends the current song, and leaves the voice channel</p>
+            </div>
+            <div id="cajamain">
+                <p id="comando">!volume</p>
+                <p>Shows or sets the current volume. For best performance, it is recommended to leave this at 100 and adjust volume on an individual basis within Discord</p>
+            </div> 
+        </div>
+    </body>
+</html>
